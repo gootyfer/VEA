@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Video Event Annotator</title>
+		<link href="vea.css" rel="stylesheet" />
+	</head>
+	<body onload="init()">
+		<header>
+			<h1>Video Event Annotator (VEA)</h1>
+		</header>
+		<section id="configSection">
+			<label>Recording Title</label>: <input id="title" type="text" autofocus="autofocus" />
+		</section>
+		<section id="videoSection">
+			<video id="video" src="http://mooplay.challet.eu/media/video/sintel-1024-stereo.mp4" controls="controls" width="600" height="350">
+				Video object not supported in your browser!
+			</video><br />
+			<input type="button" value="(S)ave current time" onclick="saveCurrentTime()" />
+			<input type="button" value="(N)ew event" onclick="newEvent()" />
+			<div>
+				<input type="button" value="Export to XML" onclick="exportToXML()" />
+			</div>
+		</section>
+		<section id="eventSection">
+		</section>
+		<footer>
+			Created by Israel Gutiérrez &amp; Derick Leony 2011. Creative Commons Attribution-No Commercial-Share Alike.
+		</footer>
+		<script type="text/javascript" src="vea.js"></script>
+	</body>
+</html>

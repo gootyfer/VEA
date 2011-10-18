@@ -1,0 +1,17 @@
+{
+    "types" : [
+
+        {
+            "type": "internet-search",
+            "label": "Busqueda en internet",
+            "params": [ "searchEngine", "query", "url" ]
+        },
+
+        {
+            "type": "create-prezi-element",
+            "label": "Crear nuevo elemento en prezi",
+            "params": [ "type", "value" ]
+        }
+
+    ]
+}

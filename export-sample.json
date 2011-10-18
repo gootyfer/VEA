@@ -1,0 +1,27 @@
+{
+    "vea": {
+        "videoFile": "recording-001.mp4",
+        "recordingTitle": "Screencast of Group #5",
+        "timestamp": "2011-03-29 18:30 +0200",
+        "events": [
+            {
+                "id": "1",
+                "type": "internet-search",
+                "start": "0.0",
+                "end": "10.6",
+                "params": [
+                    { "searchEngine": "www.google.com", "query": "xslt example", "url": "http://www.w3schools.com/xsl/xsl_transformation.asp" }
+                ]
+            },
+            {
+                "id": "2",
+                "type": "create-prezi-element",
+                "start": "10.7",
+                "end": "20.0",
+                "params": [
+                    { "type": "label", "value": "Ejemplo de XSLT" }
+                ]
+            }
+        ]
+    }  
+}

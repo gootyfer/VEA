@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+section{
+	display: block;
+	margin: 10px;
+}
+h1{
+	text-align: center;
+	margin: 20px;
+}
+footer{
+	font-size: 20pt;
+			text-align: right;
+			float: left;
+			margin: 20px;
+}
+#configSection{
+	width:90%;
+}
+#videoSection{
+	width: 50%;
+	float: left;
+}
+#eventSection{
+	width: 30%;
+	float: right;
+	margin-right: 80px;
+}
+.initTime, .endTime{
+	margin: 5px;
+}
+.eventType{
+	margin: 5px;
+}
+
+.event{
+	width: 400px;
+}
+.seq{
+	font-size: 18pt;
+	color: blue;
+}
+.params{
+	color: red;	
+}
